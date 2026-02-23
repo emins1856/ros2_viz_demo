@@ -1,0 +1,8 @@
+[console_scripts]
+circular_point = ros2_viz_demo.circular_point:main
+curved_trail_node = ros2_viz_demo.curved_trail_node:main
+joint_state_Published = ros2_viz_demo.joint_state_Published:main
+marker_array = ros2_viz_demo.marker_array:main
+moving_cube = ros2_viz_demo.moving_cube:main
+pose_and_marker_array_publisher = ros2_viz_demo.pose_and_marker_array_publisher:main
+pose_arrow = ros2_viz_demo.pose_arrow:main

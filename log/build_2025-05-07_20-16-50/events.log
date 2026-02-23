@@ -1,0 +1,49 @@
+[0.000000] (-) TimerEvent: {}
+[0.002764] (ros2_viz_demo) JobQueued: {'identifier': 'ros2_viz_demo', 'dependencies': OrderedDict()}
+[0.002859] (ros2_viz_demo) JobStarted: {'identifier': 'ros2_viz_demo'}
+[0.099617] (-) TimerEvent: {}
+[0.200111] (-) TimerEvent: {}
+[0.301904] (-) TimerEvent: {}
+[0.403132] (-) TimerEvent: {}
+[0.505604] (-) TimerEvent: {}
+[0.569628] (ros2_viz_demo) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/ros2_viz_demo', 'build', '--build-base', '/home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build', 'install', '--record', '/home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/emin/ros2_ws/src/ros2_viz_demo', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'emin', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'HOME': '/home/emin', 'OLDPWD': '/home/emin/ros2_ws/src/ros2_viz_demo/ros2_viz_demo', 'DESKTOP_SESSION': 'ubuntu', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2068', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'emin', '_': '/usr/bin/colcon', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'emin', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/emin-VirtualBox:@/tmp/.ICE-unix/2037,unix/emin-VirtualBox:/tmp/.ICE-unix/2037', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/3ebf247a_2320_4cc3_9b61_f72a8f449fd2', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.R3H452', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'PYTHONPATH': '/home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages:'}, 'shell': False}
+[0.606191] (-) TimerEvent: {}
+[0.708700] (-) TimerEvent: {}
+[0.748817] (ros2_viz_demo) StdoutLine: {'line': b'running egg_info\n'}
+[0.759683] (ros2_viz_demo) StdoutLine: {'line': b'writing build/ros2_viz_demo/ros2_viz_demo.egg-info/PKG-INFO\n'}
+[0.760686] (ros2_viz_demo) StdoutLine: {'line': b'writing dependency_links to build/ros2_viz_demo/ros2_viz_demo.egg-info/dependency_links.txt\n'}
+[0.760775] (ros2_viz_demo) StdoutLine: {'line': b'writing entry points to build/ros2_viz_demo/ros2_viz_demo.egg-info/entry_points.txt\n'}
+[0.760836] (ros2_viz_demo) StdoutLine: {'line': b'writing requirements to build/ros2_viz_demo/ros2_viz_demo.egg-info/requires.txt\n'}
+[0.760892] (ros2_viz_demo) StdoutLine: {'line': b'writing top-level names to build/ros2_viz_demo/ros2_viz_demo.egg-info/top_level.txt\n'}
+[0.784866] (ros2_viz_demo) StdoutLine: {'line': b"reading manifest file 'build/ros2_viz_demo/ros2_viz_demo.egg-info/SOURCES.txt'\n"}
+[0.785065] (ros2_viz_demo) StdoutLine: {'line': b"writing manifest file 'build/ros2_viz_demo/ros2_viz_demo.egg-info/SOURCES.txt'\n"}
+[0.785179] (ros2_viz_demo) StdoutLine: {'line': b'running build\n'}
+[0.785257] (ros2_viz_demo) StdoutLine: {'line': b'running build_py\n'}
+[0.785360] (ros2_viz_demo) StdoutLine: {'line': b'running install\n'}
+[0.790047] (ros2_viz_demo) StdoutLine: {'line': b'running install_lib\n'}
+[0.801626] (ros2_viz_demo) StdoutLine: {'line': b'byte-compiling /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo/curved_trail_node.py to curved_trail_node.cpython-312.pyc\n'}
+[0.802910] (ros2_viz_demo) StderrLine: {'line': b'  File "/home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo/curved_trail_node.py", line 132\n'}
+[0.803027] (ros2_viz_demo) StderrLine: {'line': b'    trail.points =\n'}
+[0.803087] (ros2_viz_demo) StderrLine: {'line': b'                  ^\n'}
+[0.803142] (ros2_viz_demo) StderrLine: {'line': b'SyntaxError: invalid syntax\n'}
+[0.803194] (ros2_viz_demo) StderrLine: {'line': b'\n'}
+[0.803326] (ros2_viz_demo) StdoutLine: {'line': b'running install_data\n'}
+[0.803442] (ros2_viz_demo) StdoutLine: {'line': b'copying resource/ros2_viz_demo -> /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/share/ament_index/resource_index/packages\n'}
+[0.803498] (ros2_viz_demo) StdoutLine: {'line': b'copying package.xml -> /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/share/ros2_viz_demo\n'}
+[0.803551] (ros2_viz_demo) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.809148] (-) TimerEvent: {}
+[0.815383] (ros2_viz_demo) StdoutLine: {'line': b"removing '/home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[0.815662] (ros2_viz_demo) StdoutLine: {'line': b'Copying build/ros2_viz_demo/ros2_viz_demo.egg-info to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo-0.0.0-py3.12.egg-info\n'}
+[0.816395] (ros2_viz_demo) StdoutLine: {'line': b'running install_scripts\n'}
+[0.898068] (ros2_viz_demo) StdoutLine: {'line': b'Installing circular_point script to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/ros2_viz_demo\n'}
+[0.898315] (ros2_viz_demo) StdoutLine: {'line': b'Installing curved_trail_node script to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/ros2_viz_demo\n'}
+[0.898509] (ros2_viz_demo) StdoutLine: {'line': b'Installing joint_state_publisher script to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/ros2_viz_demo\n'}
+[0.898716] (ros2_viz_demo) StdoutLine: {'line': b'Installing marker_array script to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/ros2_viz_demo\n'}
+[0.898898] (ros2_viz_demo) StdoutLine: {'line': b'Installing moving_cube script to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/ros2_viz_demo\n'}
+[0.899073] (ros2_viz_demo) StdoutLine: {'line': b'Installing pose_and_marker_array_publisher script to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/ros2_viz_demo\n'}
+[0.899243] (ros2_viz_demo) StdoutLine: {'line': b'Installing pose_arrow script to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/ros2_viz_demo\n'}
+[0.899614] (ros2_viz_demo) StdoutLine: {'line': b"writing list of installed files to '/home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/install.log'\n"}
+[0.909668] (-) TimerEvent: {}
+[0.926034] (ros2_viz_demo) CommandEnded: {'returncode': 0}
+[0.935057] (ros2_viz_demo) JobEnded: {'identifier': 'ros2_viz_demo', 'rc': 0}
+[0.936714] (-) EventReactorShutdown: {}

@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE robot PUBLIC "-//ROS//DTD URDF 1.0//EN" "http://www.ros.org">
+
+
+
+<robot name="robot">
+
+  <link name="base_link">
+
+    <visual>
+
+      <geometry>
+
+        <box size="0.4 0.4 0.1"/>
+
+      </geometry>
+
+      <origin xyz="0 0 0.05"/>
+
+      <material name="dark_red">
+
+        <color rgba="0.5 0.0 0.0 1.0"/>
+
+      </material>
+
+    </visual>
+
+  </link>
+
+
+
+  <joint name="joint1" type="fixed">
+
+    <parent link="base_link"/>
+
+    <child link="link1"/>
+
+    <origin xyz="0 0 0.1" rpy="0 0 0"/>
+
+  </joint>
+
+
+
+  <link name="link1">
+
+    <visual>
+
+      <geometry>
+
+        <cylinder length="0.6" radius="0.05"/>
+
+      </geometry>
+
+      <origin xyz="0 0 0.3"/>
+
+      <material name="bright_red">
+
+        <color rgba="1.0 0.0 0.0 1.0"/>
+
+      </material>
+
+    </visual>
+
+  </link>
+
+
+
+  <joint name="joint2" type="revolute">
+
+    <parent link="link1"/>
+
+    <child link="link2"/>
+
+    <origin xyz="0 0 0.6"/>
+
+    <axis xyz="0 0 1"/>
+
+    <limit effort="1.0" velocity="1.0" lower="-1.57" upper="1.57"/>
+
+  </joint>
+
+
+
+  <link name="link2">
+
+    <visual>
+
+      <geometry>
+
+        <box size="0.1 0.4 0.1"/>
+
+      </geometry>
+
+      <origin xyz="0 0.2 0"/>
+
+      <material name="yellow">
+
+        <color rgba="1.0 1.0 0.0 1.0"/>
+
+      </material>
+
+    </visual>
+
+  </link>
+
+</robot>
+

@@ -1,0 +1,30 @@
+[0.543s] Invoking command in '/home/emin/ros2_ws/src/ros2_viz_demo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/ros2_viz_demo build --build-base /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build install --record /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/install.log --single-version-externally-managed install_data
+[0.732s] running egg_info
+[0.743s] writing build/ros2_viz_demo/ros2_viz_demo.egg-info/PKG-INFO
+[0.743s] writing dependency_links to build/ros2_viz_demo/ros2_viz_demo.egg-info/dependency_links.txt
+[0.743s] writing entry points to build/ros2_viz_demo/ros2_viz_demo.egg-info/entry_points.txt
+[0.744s] writing requirements to build/ros2_viz_demo/ros2_viz_demo.egg-info/requires.txt
+[0.744s] writing top-level names to build/ros2_viz_demo/ros2_viz_demo.egg-info/top_level.txt
+[0.766s] reading manifest file 'build/ros2_viz_demo/ros2_viz_demo.egg-info/SOURCES.txt'
+[0.766s] writing manifest file 'build/ros2_viz_demo/ros2_viz_demo.egg-info/SOURCES.txt'
+[0.766s] running build
+[0.766s] running build_py
+[0.767s] copying ros2_viz_demo/curved_trail_node.py -> /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build/lib/ros2_viz_demo
+[0.767s] running install
+[0.772s] running install_lib
+[0.783s] copying /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build/lib/ros2_viz_demo/curved_trail_node.py -> /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo
+[0.784s] byte-compiling /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo/curved_trail_node.py to curved_trail_node.cpython-312.pyc
+[0.785s] running install_data
+[0.785s] running install_egg_info
+[0.797s] removing '/home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo-0.0.0-py3.12.egg-info' (and everything under it)
+[0.797s] Copying build/ros2_viz_demo/ros2_viz_demo.egg-info to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo-0.0.0-py3.12.egg-info
+[0.798s] running install_scripts
+[0.880s] Installing circular_point script to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/ros2_viz_demo
+[0.880s] Installing curved_trail_node script to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/ros2_viz_demo
+[0.880s] Installing joint_state_publisher script to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/ros2_viz_demo
+[0.880s] Installing marker_array script to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/ros2_viz_demo
+[0.883s] Installing moving_cube script to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/ros2_viz_demo
+[0.883s] Installing pose_and_marker_array_publisher script to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/ros2_viz_demo
+[0.883s] Installing pose_arrow script to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/ros2_viz_demo
+[0.883s] writing list of installed files to '/home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/install.log'
+[0.905s] Invoked command in '/home/emin/ros2_ws/src/ros2_viz_demo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/ros2_viz_demo build --build-base /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build install --record /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/install.log --single-version-externally-managed install_data

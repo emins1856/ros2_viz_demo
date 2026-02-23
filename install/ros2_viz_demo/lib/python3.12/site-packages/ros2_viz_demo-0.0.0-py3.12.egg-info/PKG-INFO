@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ros2-viz-demo
+Version: 0.0.0
+Summary: URDF + JointStatePublisher demo for RViz visualization
+Maintainer: Emin
+Maintainer-email: emin@example.com
+License: MIT

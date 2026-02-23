@@ -1,0 +1,5 @@
+  File "/home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo/curved_trail_node.py", line 132
+    trail.points =
+                  ^
+SyntaxError: invalid syntax
+

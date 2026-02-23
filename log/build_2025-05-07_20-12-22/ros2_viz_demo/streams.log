@@ -1,0 +1,67 @@
+[0.768s] Invoking command in '/home/emin/ros2_ws/src/ros2_viz_demo': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/ros2_viz_demo build --build-base /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build install --record /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/install.log --single-version-externally-managed install_data
+[0.949s] running egg_info
+[0.950s] creating build/ros2_viz_demo/ros2_viz_demo.egg-info
+[0.960s] writing build/ros2_viz_demo/ros2_viz_demo.egg-info/PKG-INFO
+[0.960s] writing dependency_links to build/ros2_viz_demo/ros2_viz_demo.egg-info/dependency_links.txt
+[0.961s] writing entry points to build/ros2_viz_demo/ros2_viz_demo.egg-info/entry_points.txt
+[0.961s] writing requirements to build/ros2_viz_demo/ros2_viz_demo.egg-info/requires.txt
+[0.962s] writing top-level names to build/ros2_viz_demo/ros2_viz_demo.egg-info/top_level.txt
+[0.962s] writing manifest file 'build/ros2_viz_demo/ros2_viz_demo.egg-info/SOURCES.txt'
+[0.982s] reading manifest file 'build/ros2_viz_demo/ros2_viz_demo.egg-info/SOURCES.txt'
+[0.983s] writing manifest file 'build/ros2_viz_demo/ros2_viz_demo.egg-info/SOURCES.txt'
+[0.983s] running build
+[0.984s] running build_py
+[0.984s] creating /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build
+[0.984s] creating /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build/lib
+[0.984s] creating /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build/lib/ros2_viz_demo
+[0.984s] copying ros2_viz_demo/pose_arrow.py -> /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build/lib/ros2_viz_demo
+[0.984s] copying ros2_viz_demo/marker_array.py -> /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build/lib/ros2_viz_demo
+[0.984s] copying ros2_viz_demo/circular_point.py -> /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build/lib/ros2_viz_demo
+[0.984s] copying ros2_viz_demo/__init__.py -> /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build/lib/ros2_viz_demo
+[0.985s] copying ros2_viz_demo/pose_and_marker_array_publisher.py -> /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build/lib/ros2_viz_demo
+[0.985s] copying ros2_viz_demo/moving_cube.py -> /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build/lib/ros2_viz_demo
+[0.985s] copying ros2_viz_demo/curved_trail_node.py -> /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build/lib/ros2_viz_demo
+[0.985s] running install
+[0.990s] running install_lib
+[1.001s] creating /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo
+[1.001s] copying /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build/lib/ros2_viz_demo/pose_arrow.py -> /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo
+[1.001s] copying /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build/lib/ros2_viz_demo/marker_array.py -> /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo
+[1.001s] copying /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build/lib/ros2_viz_demo/circular_point.py -> /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo
+[1.002s] copying /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build/lib/ros2_viz_demo/__init__.py -> /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo
+[1.002s] copying /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build/lib/ros2_viz_demo/pose_and_marker_array_publisher.py -> /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo
+[1.002s] copying /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build/lib/ros2_viz_demo/moving_cube.py -> /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo
+[1.002s] copying /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build/lib/ros2_viz_demo/curved_trail_node.py -> /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo
+[1.002s] byte-compiling /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo/pose_arrow.py to pose_arrow.cpython-312.pyc
+[1.003s] byte-compiling /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo/marker_array.py to marker_array.cpython-312.pyc
+[1.003s] byte-compiling /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo/circular_point.py to circular_point.cpython-312.pyc
+[1.004s] byte-compiling /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo/__init__.py to __init__.cpython-312.pyc
+[1.004s] byte-compiling /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo/pose_and_marker_array_publisher.py to pose_and_marker_array_publisher.cpython-312.pyc
+[1.005s] byte-compiling /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo/moving_cube.py to moving_cube.cpython-312.pyc
+[1.006s] byte-compiling /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo/curved_trail_node.py to curved_trail_node.cpython-312.pyc
+[1.008s] running install_data
+[1.009s]   File "/home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo/curved_trail_node.py", line 132
+[1.009s]     trail.points =
+[1.009s]                   ^
+[1.009s] SyntaxError: invalid syntax
+[1.009s] 
+[1.009s] creating /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/share/ament_index
+[1.009s] creating /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/share/ament_index/resource_index
+[1.009s] creating /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/share/ament_index/resource_index/packages
+[1.009s] copying resource/ros2_viz_demo -> /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/share/ament_index/resource_index/packages
+[1.010s] copying package.xml -> /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/share/ros2_viz_demo
+[1.010s] creating /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/share/ros2_viz_demo/launch
+[1.010s] copying launch/display_urdf.launch.py -> /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/share/ros2_viz_demo/launch
+[1.010s] creating /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/share/ros2_viz_demo/urdf
+[1.010s] copying urdf/robot.urdf -> /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/share/ros2_viz_demo/urdf
+[1.010s] running install_egg_info
+[1.020s] Copying build/ros2_viz_demo/ros2_viz_demo.egg-info to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages/ros2_viz_demo-0.0.0-py3.12.egg-info
+[1.021s] running install_scripts
+[1.102s] Installing circular_point script to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/ros2_viz_demo
+[1.102s] Installing curved_trail_node script to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/ros2_viz_demo
+[1.102s] Installing joint_state_publisher script to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/ros2_viz_demo
+[1.102s] Installing marker_array script to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/ros2_viz_demo
+[1.102s] Installing moving_cube script to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/ros2_viz_demo
+[1.102s] Installing pose_and_marker_array_publisher script to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/ros2_viz_demo
+[1.102s] Installing pose_arrow script to /home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/ros2_viz_demo
+[1.103s] writing list of installed files to '/home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/install.log'
+[1.129s] Invoked command in '/home/emin/ros2_ws/src/ros2_viz_demo' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/emin/ros2_ws/src/ros2_viz_demo/install/ros2_viz_demo/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/ros2_viz_demo build --build-base /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/build install --record /home/emin/ros2_ws/src/ros2_viz_demo/build/ros2_viz_demo/install.log --single-version-externally-managed install_data
